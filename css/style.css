@@ -1,0 +1,23 @@
+.frontpage-body{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    height: 100%;
+    margin: 44vh 0;
+    left: 44vw;
+    top: 2vw;
+    background-color: black;
+    color: rgb(184,184,184);
+}
+.frontpage-title{
+    position: absolute;
+    top: 0;
+}
+.frontpage-form{
+    position: absolute;
+}
+.frontpage-motto{
+    position: absolute;
+    top: 4vw;
+}
