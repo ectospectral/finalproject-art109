@@ -4,11 +4,12 @@
 let correctPassword = 'kraken';
 
 function enterPassword(){
-    if(document.querySelector('#ishmael').value != correctPassword){
+
+    if(document.querySelector('#warden').value != correctPassword){
         alert('Incorrect Password');
         return false;
     }
-    else if(document.querySelector('#ishmael').value === correctPassword){
+    else if(document.querySelector('#warden').value === correctPassword){
         alert('Welcome back.');
         return true;
     }
