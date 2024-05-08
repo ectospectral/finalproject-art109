@@ -1,3 +1,5 @@
+
+/* FRONTPAGE */
 .frontpage-body{
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
@@ -20,4 +22,42 @@
 .frontpage-motto{
     position: absolute;
     top: 4vw;
+}
+
+
+/* ACCOUNT */
+.message-title{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 500;
+    font-style: normal;
+}
+.message-list{
+    float: left;
+}
+.message-list li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+.message-list li a{
+    display: fixed;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+      font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+.message-list li a:hover{
+    background-color: grey;
+}
+.message-list li ul{
+    display: none;
+    position: absolute;
+}
+.message-list li:hover ul{
+    display: inline-grid;
 }
